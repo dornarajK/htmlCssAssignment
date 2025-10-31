@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.vari1 {
+    background-color: #3E5F44;
+}
+
+.vari2 {
+    background-color: #5E936C;
+}
+
+.vari3 {
+    background-color: #93DA97;
+}
+
+.vari3 {
+    background-color: #E8FFD7;
+}
+
+
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #3E5F44;
+}
+
+/* Navbar Tuote*/
+.logo {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    color: #E8FFD7;
+    text-decoration: none;
+    height: fit-content;
+    padding-left: 10px;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3E5F44;
+    height: 50px;
+    padding: 15px 40px;
+    color: #E8FFD7;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #E8FFD7;
+    text-decoration: none;
+}
+
+#tamaSivu {
+    border-bottom: solid 1px white;
+
+}
+
+/* Loppu Navbar Tuote */
+
+
+/* Hero Tuote */
+
+.conpanyx {
+    background-color: #5E936C;
+    height: 100%;
+    padding-bottom: 30vh;
+
+
+
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.content-text {
+    text-align: center;
+    padding: 2vh;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.297);
+    border-radius: 10px;
+
+
+
+}
+
+/* Loppu Hero Tuote */
+
+/* Products Tuote */
+
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.product-card {
+    background-color: #93DA97;
+    border: 1px solid #3E5F44;
+
+    border-radius: 8px;
+    width: 350px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 15px 0 10px 0;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.297);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: left;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.297);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+
+/* Loppu Products Tuote */

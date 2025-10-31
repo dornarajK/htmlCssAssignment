@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.vari1 {
+    background-color: #3E5F44;
+}
+
+.vari2 {
+    background-color: #5E936C;
+}
+
+.vari3 {
+    background-color: #93DA97;
+}
+
+.vari3 {
+    background-color: #E8FFD7;
+}
+
+
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #5E936C;
+}
+
+/* Navbar */
+.logo {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    color: #E8FFD7;
+    text-decoration: none;
+    height: fit-content;
+    padding-left: 10px;
+
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3E5F44;
+    height: 50px;
+    padding: 15px 40px;
+    color: #E8FFD7;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #E8FFD7;
+    text-decoration: none;
+}
+
+#tamaSivu {
+    border-bottom: solid 1px #E8FFD7;
+
+}
+
+
+/* Loppu Navbar */
+
+
+/* Hero */
+
+.conpanyx {
+    background-color: #5E936C;
+    height: 90vh;
+    padding: 20px;
+
+
+
+}
+
+.Image-title {
+    text-align: center;
+    padding-top: 13vh;
+    font-size: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+}
+
+.content-text {
+    text-align: center;
+    padding-top: 2vh;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+
+
+}
+
+
+/* Loppu Hero */
+.contact-section h1 {
+    color: #ffffff;
+    margin: 20px 0;
+
+}
+
+.contact-section {
+    color: #E8FFD7;
+    padding: 50px 10%;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+    padding: 2vh;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.297);
+    border-radius: 10px;
+
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+
+.contact-map {
+    flex: 1;
+    min-width: 300px;
+    text-align: right;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Loppu Contact */
