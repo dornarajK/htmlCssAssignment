@@ -9,12 +9,15 @@
 .vari1 {
     background-color: #3E5F44;
 }
+
 .vari2 {
-    background-color: #5E936C;  
+    background-color: #5E936C;
 }
+
 .vari3 {
     background-color: #93DA97;
 }
+
 .vari3 {
     background-color: #E8FFD7;
 }
@@ -38,7 +41,7 @@ body {
     text-decoration: none;
     height: fit-content;
     padding-left: 10px;
-   
+
 
 }
 
@@ -50,7 +53,7 @@ body {
     height: 50px;
     padding: 15px 40px;
     color: E8FFD7;
-   
+
 }
 
 .nav-links {
@@ -69,8 +72,8 @@ body {
 }
 
 #tamaSivu {
-     border-bottom: solid 1px #E8FFD7;    
-    
+    border-bottom: solid 1px #E8FFD7;
+
 }
 
 
@@ -79,15 +82,15 @@ body {
 
 /* Hero */
 
-.conpanyx{
+.conpanyx {
     background-color: #5E936C;
-   height: 100%;
-   padding: 20px;
-    
-    
+    height: 100%;
+    padding: 20px;
+
+
 }
 
-.Image-title{
+.Image-title {
     text-align: center;
     padding-top: 13vh;
     font-size: 50px;
@@ -95,27 +98,34 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-.hero-image{
+.hero-image {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 1vh;
 }
+.content-image {
+  width: 100%;
+  height: 400px; 
+  object-fit: cover; 
+}
+
 
 .content-text {
-  text-align: center;
-  padding: 2vh;
-  color: #fff;
-  width: 50%;
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.297); 
-  border-radius: 10px;
+    text-align: center;
+    padding: 2vh;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.297);
+    border-radius: 10px;
+    margin-bottom: 10vh;
 }
 
 
 
 
-    
+
 
 
 /* Loppu Hero */
